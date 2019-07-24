@@ -1,0 +1,81 @@
+Microsoft Windows [Version 10.0.14393]
+(c) 2016 Microsoft Corporation. All rights reserved.
+
+C:\Users\Akshari K C\Downloads\python-ws>git init
+Reinitialized existing Git repository in C:/Users/Akshari K C/Downloads/python-ws/.git/
+
+C:\Users\Akshari K C\Downloads\python-ws>copy con dice.py
+^Z
+        1 file(s) copied.
+
+C:\Users\Akshari K C\Downloads\python-ws>copy con .gitignore
+^Z
+        1 file(s) copied.
+
+C:\Users\Akshari K C\Downloads\python-ws>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 4867-FCB3
+
+ Directory of C:\Users\Akshari K C\Downloads\python-ws
+
+23-07-2019  09:06    <DIR>          .
+23-07-2019  09:06    <DIR>          ..
+23-07-2019  09:06                 0 .gitignore
+23-07-2019  09:05                 0 dice.py
+22-07-2019  23:02    <DIR>          M_1
+               2 File(s)              0 bytes
+               3 Dir(s)  37,552,070,656 bytes free
+
+C:\Users\Akshari K C\Downloads\python-ws>add .
+'add' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Akshari K C\Downloads\python-ws>git add .
+
+C:\Users\Akshari K C\Downloads\python-ws>git commit -m "Python internship example"
+[master 904a1c1] Python internship example
+ 9 files changed, 72 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 M_1/Q_1.py
+ create mode 100644 M_1/Q_10.py
+ create mode 100644 M_1/Q_2.py
+ create mode 100644 M_1/Q_3.py
+ create mode 100644 M_1/Q_4.py
+ create mode 100644 M_1/Q_5.py
+ create mode 100644 M_1/Q_8.py
+ create mode 100644 dice.py
+
+C:\Users\Akshari K C\Downloads\python-ws>https://github.com/Aksharikc12/python-ws.git
+'https:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Akshari K C\Downloads\python-ws>git remote add origin https://github.com/Aksharikc12/python-ws.git
+fatal: remote origin already exists.
+
+C:\Users\Akshari K C\Downloads\python-ws>git push -u origin master
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (14/14), 1.90 KiB | 74.00 KiB/s, done.
+Total 14 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Aksharikc12/python-ws.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\Akshari K C\Downloads\python-ws>code .
+
+C:\Users\Akshari K C\Downloads\python-ws>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\Akshari K C\Downloads\python-ws>git add .
+
+C:\Users\Akshari K C\Downloads\python-ws>mkdir M_2
+
+C:\Users\Akshari K C\Downloads\python-ws>cd M_2
+
+C:\Users\Akshari K C\Downloads\python-ws\M_2>

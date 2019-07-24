@@ -1,6 +1,6 @@
 '''a program to print the pattern.'''
 
-max=6
+max=5
 for i in range(1, max + 1):
     for j in range(max , i-1 , -1):
         print(" ",end="")

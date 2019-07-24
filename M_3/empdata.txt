@@ -1,0 +1,10 @@
+1,Lakshman,M.Tech,80000,CSE
+2,Lakshmi,B.Tech,73000,ISE
+3,Ram,M.Tech,60000,ECE
+4,Rani,PhD,90000,CSE
+5,Varun,B.Tech,65000,CSE
+6,Raj,M.Tech,50000,CSE
+7,Vani,B.Tech,46000,CSE
+8,Mohan,PhD,95000,ISE
+9,Rama,M.Tech,80000,ECE
+10,Suresh,M.Tech,80000,ECE
