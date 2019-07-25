@@ -3,12 +3,17 @@ Example:
 Input: 14389
 Output: 25490
 '''
-inp = input("enter the five-digit number")
-sum = 0
-for num in inp:
-    if num == 9:
-        sum = 0
-        print(sum)
+num=int(input("Enter the 5 digit number:"))
+n=5
+sum=0
+while n > 0:
+    n-=1
+    res=num // 10 ** (n)
+    if res==9:
+        res =0
     else:
-        sum = int(num)+1
-        print(sum,end='')
+        res +=1
+    res *= 10 ** (n)
+    sum += res
+    num=num % 10 ** (n)
+print(sum)

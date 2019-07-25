@@ -23,3 +23,15 @@ for name in Cricket:
     
 
 print(u_name)
+
+one = []
+for i in Cricket:
+    if (is_Football(i) or is_Badminton(i)) == False:
+        one.append(i)
+for i in Football:
+    if (is_Cricket(i) or is_Badminton(i)) == False:
+        one.append(i)
+for i in Badminton:
+    if (is_Football(i) or is_Cricket(i) )== False:
+        one.append(i)
+print(one)
